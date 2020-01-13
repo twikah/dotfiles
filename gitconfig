@@ -11,6 +11,7 @@
 
 [core]
   pager = less -FRSX
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
@@ -48,3 +49,7 @@
 
 [pull]
   rebase = false
+
+[user]
+	email = vanessaesanto@gmail.com
+	name = Vanessa Santo
